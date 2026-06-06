@@ -1,0 +1,14 @@
+[package]
+name = "gpu-annealing"
+version = "0.1.0"
+edition = "2021"
+description = "GPU-accelerated simulated annealing orchestration layer — pure data structures and scheduling"
+license = "MIT"
+repository = "https://github.com/SuperInstance/gpu-annealing"
+keywords = ["annealing", "optimization", "gpu", "parallel", "scheduling"]
+categories = ["algorithms", "data-structures", "science"]
+
+[dependencies]
+petgraph = "0.7"
+
+[dev-dependencies]
